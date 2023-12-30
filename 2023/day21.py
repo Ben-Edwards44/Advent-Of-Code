@@ -1,5 +1,5 @@
 def get_input():
-    with open("t.txt", "r") as file:
+    with open("day21.txt", "r") as file:
         data = file.read().split("\n")[:-1]
 
     final = []
