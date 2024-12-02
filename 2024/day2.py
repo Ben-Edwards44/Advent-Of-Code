@@ -45,7 +45,6 @@ part1()
 def new_check_safe(report):
     if check_report(report):
         return True
-    
 
     for i in range(len(report)):
         if check_report(report[:i] + report[i + 1:]):
