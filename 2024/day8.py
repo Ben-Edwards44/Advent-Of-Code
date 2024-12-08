@@ -1,3 +1,6 @@
+from math import gcd
+
+
 def get_input():
     with open("day8.txt", "r") as file:
         data = file.read().splitlines()
@@ -47,6 +50,15 @@ part1()
 #-------
 
 
+def get_simplest_vector(a, b):
+    dx = a[0] - b[0]
+    dy = a[1] - b[1]
+
+    hcf = gcd(dx, dy)
+
+    return dx // hcf, dy // hcf
+
+
 def find_harmonic_antinodes(pos, freqs):
     freq = freqs[pos[0]][pos[1]]
 
@@ -55,7 +67,7 @@ def find_harmonic_antinodes(pos, freqs):
         for j, k in enumerate(x):
             if i == pos[0] and j == pos[1] or freq != k: continue
 
-            vect = get_vector(pos, (i, j))
+            vect = get_simplest_vector(pos, (i, j))
             antinode = (i + vect[0], j + vect[1])
 
             while 0 <= antinode[0] < len(freqs) and 0 <= antinode[1] < len(freqs[1]):
