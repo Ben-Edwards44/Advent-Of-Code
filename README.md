@@ -1,25 +1,22 @@
 # Advent of Code :christmas_tree:
 
-          .
-       __/ \__
-       \     /
-       /.'o'.\
-        .o.'.
-       .'.'o'.
-      o'.o.'.o.
-     .'.o.'.'.o.
-    .o.'.o.'.o.'.
-       [_____]
-        \___/
+             .
+          __/ \__
+          \     /
+          /.'o'.\
+           .o.'.
+          .'.'o'.
+         o'.o.'.o.
+        .'.o.'.'.o.
+       .o.'.o.'.o.'.
+      _   [_____]
+     |_|   \___/  _..__
 
 
 
 These are my solutions to the [Advent of Code](https://adventofcode.com/) Puzzles.
 
-Currently, only the solutions to the 2023 puzzles are here but I fully intend to continue doing the future years.
-I also participated in 2022 and 2021, but I cannot find the code for either of these years.
-
-The solutions are often not at all optimised or readable, they are just what I came up with each day. Some of the programs (*like [2023 day 17](https://adventofcode.com/2023/day/17)*)
+Currently, there are only solutions to 2023 and 2024. I also participated in 2022 and 2021, but I cannot find the code for either of these years (it's on my old laptop somewhere...).
 
 ## Stars :star:
 
@@ -27,13 +24,7 @@ The solutions are often not at all optimised or readable, they are just what I c
 - 2022 - 39
 - 2021 - 22
 
-## Useage :wrench:
+## Notes :pencil2:
 
-If you want to run these solutions on your own input:
-
-- *Don't.* There are much better solutions to use such as [this repository](https://github.com/hyper-neutrino/advent-of-code) by hyper-neutrino.
-- If you still want to:
-  - Copy your input into a file named `day{n}.txt` and replace `{n}` with the day number.
-  - Save this file in the same directory as the python script.
-  - Ensure there is a newline at the end of the file.
-  - Run the appropriate python script.
+- If you want to use these solutions on your own input, save it in a text file called `day[n].txt` where `[n]` is the day number.
+- Maybe year day I'll try to get on the leaderboard just once...
