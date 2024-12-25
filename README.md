@@ -20,6 +20,7 @@ Currently, there are only solutions to 2023 and 2024. I also participated in 202
 
 ## Stars :star:
 
+- 2024 - 50
 - 2023 - 46
 - 2022 - 39
 - 2021 - 22
